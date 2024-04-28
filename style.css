@@ -83,6 +83,11 @@ body {
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+    gap: 20px;
+}
+
+#game-sec h1 {
+    color: black;
 }
 
 .bubble-elem {
@@ -95,4 +100,9 @@ body {
     border-radius: 50%;
     font-weight: bold;
     font-size: 18px;
+    cursor: pointer;
+}
+
+.bubble-elem:hover {
+    background-color: rgb(8, 83, 37);
 }
